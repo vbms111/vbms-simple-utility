@@ -1,0 +1,43 @@
+
+.editMenu {
+	font: 16px Arial, sans-serif;
+	height: 30px;
+	background: rgb(230,230,230);
+}
+.editMenu a {
+	position: relative;
+	display: block;
+	float: left;
+	height: 30px;
+	margin: 0px 0px 0px 5px;
+	padding: 0px 10px;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+	background: rgb(240,240,240);
+}
+.editMenu a:hover {
+	background: rgb(210,210,210);
+}
+.editMenu a:selected {
+	background: rgb(210,210,210);
+}
+
+.menuPreview {
+}
+.menuEdit {
+}
+.menuArea {
+}
+.menuForm {
+}
+.menuModel {
+}
+.menuQuery {
+}
+.menuAction {
+}
+.menuFile {
+}
+.menuSettings {
+}

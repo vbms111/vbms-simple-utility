@@ -1,0 +1,261 @@
+.fixedTop {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 30px;
+	background: rgb(240,240,240);
+	opacity: 80;
+}
+.fixedHeader {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	right: 40px;
+	height: 30px;
+	background: rgb(240,240,240);
+	opacity: 80;
+}
+.fixedHeaderMenu {
+	position: absolute;
+	top: 80px;
+	left: 40px;
+	right: 40px;
+	height: 30px;
+	background: rgb(240,240,240);
+	opacity: 80;
+}
+.fixedLeft {
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	bottom: 40px;
+	width: 30px;
+	background: rgb(240,240,240);
+	opacity: 80;
+}
+.fixedRight {
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	bottom: 40px;
+	width: 30px;
+	background: rgb(240,240,240);
+	opacity: 80;
+}
+.fixedFooterMenu {
+	position: absolute;
+	bottom: 80px;
+	left: 40px;
+	right: 40px;
+	height: 30px;
+	background: rgb(240,240,240);
+}
+
+.fixedFooter {
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+	right: 40px;
+	height: 30px;
+	background: rgb(240,240,240);
+}
+
+.fixedBottom {
+	position: absolute;
+	height: 30px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: rgb(240,240,240);
+}
+
+.fixedInnerLeft {
+	
+	position: absolute;
+	top: 120px;
+	left: 40px;
+	bottom: 120px;
+	width: 30px;
+	background: rgb(240,240,240);
+	opacity: 80;
+}
+
+.fixedInnerRight {
+	
+	position: absolute;
+	top: 120px;
+	right: 40px;
+	bottom: 120px;
+	width: 30px;
+	background: rgb(240,240,240);
+	opacity: 80;
+}
+
+.fixedCenter {
+	position: absolute;
+	top: 120px;
+	left: 80px;
+	right: 80px;
+	height: 30px;
+	background: rgb(240,240,240);
+	overflow: hidden;
+}
+
+.absoluteContainer {
+	position: fixed;
+	top: 160px;
+	left: 80px;
+	right: 80px;
+	bottom: 160px;
+	min-height: 250px;
+	overflow: hidden;
+}
+.absoluteLeft {
+	position: absolute;
+	left: 0px;
+	top: 40px;
+	bottom: 40px;
+	width: 30px;
+	background: rgb(240,240,240);
+}
+.absoluteRight {
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	bottom: 40px;
+	width: 30px;
+	background: rgb(240,240,240);
+}
+.absoluteTop {
+	position: absolute;
+	top: 0px;
+	height: 30px;
+	left: 0px;
+	right: 0px;
+	background: rgb(240,240,240);
+}
+.absoluteHeader {
+	position: absolute;
+	top: 40px;
+	height: 30px;
+	left: 40px;
+	right: 40px;
+	background: rgb(240,240,240);
+}
+.absoluteHeaderMenu {
+	position: absolute;
+	top: 80px;
+	left: 40px;
+	right: 40px;
+	height: 30px;
+	background: rgb(240,240,240);
+}
+.absoluteBottom {
+	position: absolute;
+	bottom: 0px;
+	height: 30px;
+	left: 0px;
+	right: 0px;
+	background: rgb(240,240,240);
+}
+.absoluteFooter {
+	position: absolute;
+	bottom: 40px;
+	height: 30px;
+	left: 40px;
+	right: 40px;
+	background: rgb(240,240,240);
+}
+.absoluteFooterMenu {
+	position: absolute;
+	bottom: 80px;
+	height: 30px;
+	left: 40px;
+	right: 40px;
+	background: rgb(240,240,240);
+}
+.absoluteCenter {
+	position: absolute;
+	height: 30px;
+	top: 120px;
+	bottom: 120px;
+	left: 80px;
+	right: 80px;
+	background: rgb(240,240,240);
+}
+.absoluteInnerLeft {
+	
+	position: absolute;
+	top: 120px;
+	bottom: 120px;
+	left: 40px;
+	width: 30px;
+	background: rgb(240,240,240);
+}
+.absoluteInnerRight {
+
+	position: absolute;
+	top: 120px;
+	bottom: 120px;
+	right: 40px;
+	width: 30px;
+	background: rgb(240,240,240);
+}
+.addLink {
+	position: absolute;
+	content: "+";
+	color: black;
+	background: rgb(200,200,200);
+	width: 30px;
+	height: 30px;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+}
+.editFullDocpanel {
+
+}
+.editMenu {
+	font: 16px Arial, sans-serif;
+	height: 30px;
+	background: rgb(230,230,230);
+}
+.editMenu a {
+	position: relative;
+	display: block;
+	float: left;
+	height: 30px;
+	margin: 0px 0px 0px 5px;
+	padding: 0px 10px;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+	background: rgb(240,240,240);
+}
+.editMenu a:hover {
+	background: rgb(210,210,210);
+}
+.editMenu a:selected {
+	background: rgb(210,210,210);
+}
+
+.menuPreview {
+}
+.menuEdit {
+}
+.menuArea {
+}
+.menuForm {
+}
+.menuModel {
+}
+.menuQuery {
+}
+.menuAction {
+}
+.menuFile {
+}
+.menuSettings {
+}
